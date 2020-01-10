@@ -47,7 +47,7 @@ Library for writing OpenStreetMap PBF files
 
 %prep
 %setup -qn OSM-binary-%{version}
-%apply_patches
+%autopatch -p1
 export CXXFLAGS="%{optflags} -I$(pwd)/build/src"
 %cmake -G Ninja
 mkdir -p src
