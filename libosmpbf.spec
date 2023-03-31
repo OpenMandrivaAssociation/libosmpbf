@@ -2,7 +2,7 @@
 
 Name: libosmpbf
 Version: 1.3.3
-Release: 2
+Release: 3
 Source0: https://github.com/scrosby/OSM-binary/archive/v%{version}.tar.gz
 Summary: Library for writing OpenStreetMap PBF files
 URL: https://github.com/scrosby/OSM-binary
